@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic&subset=latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif&subset=latin-ext);
+/* line 5, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 20, ../sass/style.sass */
+.center {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* line 23, ../sass/style.sass */
+html, body, .site-container {
+  height: 100%;
+}
+
+/* line 25, ../sass/style.sass */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #e6d6bf;
+}
+
+/* line 28, ../sass/style.sass */
+.site-container {
+  width: 100%;
+}
+
+/* line 30, ../sass/style.sass */
+.main {
+  float: left;
+  width: 62%;
+}
+
+/* line 33, ../sass/style.sass */
+.main-top {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 35, ../sass/style.sass */
+.main-top svg {
+  display: inline-block;
+  width: 59%;
+}
+/* line 38, ../sass/style.sass */
+.main-top h1 {
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: right;
+  font-family: "Open Sans", sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  font-style: normal;
+}
+/* line 43, ../sass/style.sass */
+.main-top h1 span {
+  position: absolute;
+  margin: 40px 0 0 15px;
+  text-transform: none;
+  font-family: "Noto Serif", serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 49, ../sass/style.sass */
+.main-middle p {
+  display: inline-block;
+  line-height: 18px;
+}
+/* line 52, ../sass/style.sass */
+.main-middle p em {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 54, ../sass/style.sass */
+aside {
+  float: right;
+  width: 38%;
+  height: 100%;
+  background: #000;
+}
+/* line 59, ../sass/style.sass */
+aside .gallery-img {
+  width: 49%;
+}

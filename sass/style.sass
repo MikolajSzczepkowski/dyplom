@@ -1,0 +1,60 @@
+$font-main: "Open Sans", sans-serif
+$font-serif: "Noto Serif", serif
+$color-backround: #e6d6bf
+$color-typography: #2d322c
+
+@mixin center($width)
+  display: block
+  width: $width
+  margin: 0 auto
+@mixin font($font, $font-size, $font-weight, $font-style)
+  font-family: $font
+  font-size: $font-size
+  font-weight: $font-weight
+  font-style: $font-style
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic&subset=latin-ext)
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif&subset=latin-ext)
+@import "compass/reset"
+
+.center
+  @include center(75%)
+
+html, body, .site-container
+  height: 100%
+body
+  @include font($font-main, 14px, normal, normal)
+  background-color: $color-backround
+.site-container
+  width: 100%
+.main
+  float: left
+  width: 62%
+.main-top
+  @include center(80%)
+  svg
+    display: inline-block
+    width: 59%
+  h1
+    display: inline-block
+    text-transform: uppercase
+    text-align: right
+    @include font($font-main, 64px, bold, normal)
+    span
+      position: absolute
+      margin: 40px 0 0 15px
+      text-transform: none
+      @include font($font-serif, 18px, normal, normal)
+.main-middle
+  p
+    display: inline-block
+    line-height: 18px
+    em
+      @include font($font-main, 14px, normal, italic)
+aside
+  float: right
+  width: 38%
+  height: 100%
+  background: #000
+  .gallery-img
+    width: 49%
