@@ -65,19 +65,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 46, ../sass/style.sass */
+/* line 49, ../sass/style.sass */
 .center {
   display: block;
   width: 85%;
   margin: 0 auto;
 }
 
-/* line 49, ../sass/style.sass */
+/* line 52, ../sass/style.sass */
 html, body, .site-container {
   height: 100%;
 }
 
-/* line 51, ../sass/style.sass */
+/* line 54, ../sass/style.sass */
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -86,36 +86,54 @@ body {
   background-color: #e6d6bf;
 }
 
-/* line 54, ../sass/style.sass */
+/* line 57, ../sass/style.sass */
 .site-container {
   width: 100%;
 }
 
-/* line 56, ../sass/style.sass */
+/* line 59, ../sass/style.sass */
 .main {
   display: block;
   margin: 40px 0 0 0;
 }
 @media screen and (min-width: 300px) {
-  /* line 56, ../sass/style.sass */
+  /* line 59, ../sass/style.sass */
   .main {
     margin: 10px 0 0 0;
   }
 }
+@media screen and (min-width: 640px) {
+  /* line 59, ../sass/style.sass */
+  .main {
+    margin: 20px 0 0 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 59, ../sass/style.sass */
+  .main {
+    margin: 40px 0 0 0;
+  }
+}
 
-/* line 61, ../sass/style.sass */
+/* line 68, ../sass/style.sass */
 .main-top {
   display: block;
   width: 100%;
   margin: 0 auto;
 }
 @media screen and (min-width: 480px) {
-  /* line 61, ../sass/style.sass */
+  /* line 68, ../sass/style.sass */
   .main-top {
     width: 85%;
   }
 }
-/* line 65, ../sass/style.sass */
+@media screen and (min-width: 640px) {
+  /* line 68, ../sass/style.sass */
+  .main-top {
+    width: 80%;
+  }
+}
+/* line 74, ../sass/style.sass */
 .main-top div {
   position: absolute;
   display: inline-block;
@@ -123,12 +141,25 @@ body {
   margin: 0 3% 0 0;
 }
 @media screen and (min-width: 300px) {
-  /* line 65, ../sass/style.sass */
+  /* line 74, ../sass/style.sass */
   .main-top div {
     position: initial;
   }
 }
-/* line 72, ../sass/style.sass */
+@media screen and (min-width: 640px) {
+  /* line 74, ../sass/style.sass */
+  .main-top div {
+    margin: 0 8% 0 0;
+  }
+}
+@media screen and (min-width: 980px) {
+  /* line 74, ../sass/style.sass */
+  .main-top div {
+    width: 40%;
+    margin: 0 10% 0 8%;
+  }
+}
+/* line 86, ../sass/style.sass */
 .main-top div button {
   position: fixed;
   top: -25px;
@@ -137,29 +168,35 @@ body {
   border: none;
 }
 @media screen and (min-width: 300px) {
-  /* line 72, ../sass/style.sass */
+  /* line 86, ../sass/style.sass */
   .main-top div button {
     top: 0;
   }
 }
-/* line 80, ../sass/style.sass */
+/* line 94, ../sass/style.sass */
 .main-top div svg {
   display: none;
   margin: 0 0 40px 0;
 }
 @media screen and (min-width: 300px) {
-  /* line 80, ../sass/style.sass */
+  /* line 94, ../sass/style.sass */
   .main-top div svg {
     display: block;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 80, ../sass/style.sass */
+  /* line 94, ../sass/style.sass */
   .main-top div svg {
     margin: 0 0 20px 0;
   }
 }
-/* line 87, ../sass/style.sass */
+@media screen and (min-width: 768px) {
+  /* line 94, ../sass/style.sass */
+  .main-top div svg {
+    margin: 0 0 65px 0;
+  }
+}
+/* line 103, ../sass/style.sass */
 .main-top h1 {
   display: inline-block;
   text-transform: uppercase;
@@ -169,7 +206,20 @@ body {
   font-weight: bold;
   font-style: normal;
 }
-/* line 92, ../sass/style.sass */
+@media screen and (min-width: 640px) {
+  /* line 103, ../sass/style.sass */
+  .main-top h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 103, ../sass/style.sass */
+  .main-top h1 {
+    font-size: 52px;
+    line-height: 64px;
+  }
+}
+/* line 113, ../sass/style.sass */
 .main-top h1 span {
   position: absolute;
   margin: 15px 0 0 10px;
@@ -179,24 +229,46 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+@media screen and (min-width: 640px) {
+  /* line 113, ../sass/style.sass */
+  .main-top h1 span {
+    margin: 22px 0 0 10px;
+  }
+}
+@media screen and (min-width: 640px) {
+  /* line 113, ../sass/style.sass */
+  .main-top h1 span {
+    margin: 12px 0 0 10px;
+    font-size: 16px;
+  }
+}
 
-/* line 97, ../sass/style.sass */
+/* line 123, ../sass/style.sass */
 .main-middle {
   margin: 20px 0 0 0;
 }
-/* line 99, ../sass/style.sass */
+@media screen and (min-width: 640px) {
+  /* line 123, ../sass/style.sass */
+  .main-middle {
+    margin: 40px 0 0 0;
+  }
+}
+/* line 127, ../sass/style.sass */
 .main-middle p {
   display: inline-block;
   line-height: 18px;
   text-align: justify;
 }
-@media screen and (min-width: 480px) {
-  /* line 99, ../sass/style.sass */
+@media screen and (min-width: 980px) {
+  /* line 127, ../sass/style.sass */
   .main-middle p {
-    text-align: left;
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+    line-height: 24px;
   }
 }
-/* line 105, ../sass/style.sass */
+/* line 134, ../sass/style.sass */
 .main-middle p em {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -204,24 +276,42 @@ body {
   font-style: italic;
 }
 
-/* line 107, ../sass/style.sass */
+/* line 136, ../sass/style.sass */
 .main-bottom {
   margin: 20px 0 0 0;
 }
-/* line 109, ../sass/style.sass */
+@media screen and (min-width: 640px) {
+  /* line 136, ../sass/style.sass */
+  .main-bottom {
+    margin: 40px 0 0 0;
+  }
+}
+/* line 140, ../sass/style.sass */
 .main-bottom svg {
   display: block;
   width: 25%;
   margin: 0 auto;
 }
 @media screen and (min-width: 480px) {
-  /* line 109, ../sass/style.sass */
+  /* line 140, ../sass/style.sass */
   .main-bottom svg {
     width: 20%;
   }
 }
+@media screen and (min-width: 640px) {
+  /* line 140, ../sass/style.sass */
+  .main-bottom svg {
+    width: 15%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 140, ../sass/style.sass */
+  .main-bottom svg {
+    width: 10%;
+  }
+}
 
-/* line 113, ../sass/style.sass */
+/* line 148, ../sass/style.sass */
 aside {
   display: none;
   position: absolute;
@@ -230,18 +320,18 @@ aside {
   width: 60%;
   height: 100%;
 }
-/* line 120, ../sass/style.sass */
+/* line 155, ../sass/style.sass */
 aside div {
   padding: 0 0 0.5% 0;
   background: #000;
 }
-/* line 123, ../sass/style.sass */
+/* line 158, ../sass/style.sass */
 aside .gallery-img {
   width: 90%;
   margin: 2.5%;
 }
 @media screen and (min-width: 480px) {
-  /* line 123, ../sass/style.sass */
+  /* line 158, ../sass/style.sass */
   aside .gallery-img {
     width: 47%;
     margin: 1% 0 0 1%;

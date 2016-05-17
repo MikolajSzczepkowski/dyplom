@@ -26,6 +26,9 @@ $color-typography: #2d322c
   @else if $point == s
     @media screen and (min-width: 768px)
       @content
+  @else if $point == sm
+    @media screen and (min-width: 980px)
+      @content
   @else if $point == m
     @media screen and (min-width: 1024px)
       @content
@@ -58,10 +61,16 @@ body
   margin: 40px 0 0 0
   @include breakpoint(xxxs)
     margin: 10px 0 0 0
+  @include breakpoint(xs)
+    margin: 20px 0 0 0
+  @include breakpoint(m)
+    margin: 40px 0 0 0
 .main-top
   @include center(100%)
   @include breakpoint(xxs)
     width: 85%
+  @include breakpoint(xs)
+    width: 80%
   div
     position: absolute
     display: inline-block
@@ -69,6 +78,11 @@ body
     margin: 0 3% 0 0
     @include breakpoint(xxxs)
       position: initial
+    @include breakpoint(xs)
+      margin: 0 8% 0 0
+    @include breakpoint(sm)
+      width: 40%
+      margin: 0 10% 0 8%
     button
       position: fixed
       top: -25px
@@ -84,32 +98,53 @@ body
         display: block
       @include breakpoint(xxs)
         margin: 0 0 20px 0
+      @include breakpoint(s)
+        margin: 0 0 65px 0
   h1
     display: inline-block
     text-transform: uppercase
     text-align: right
     @include font($font-main, 32px, bold, normal)
+    @include breakpoint(xs)
+      font-size: 40px
+    @include breakpoint(s)
+      font-size: 52px
+      line-height: 64px
     span
       position: absolute
       margin: 15px 0 0 10px
       text-transform: none
       @include font($font-serif, 14px, normal, normal)
+      @include breakpoint(xs)
+        margin: 22px 0 0 10px
+      @include breakpoint(xs)
+        margin: 12px 0 0 10px
+        font-size: 16px
 .main-middle
   margin: 20px 0 0 0
+  @include breakpoint(xs)
+    margin: 40px 0 0 0
   p
     display: inline-block
     line-height: 18px
     text-align: justify
-    @include breakpoint(xxs)
-      text-align: left
+    @include breakpoint(sm)
+      @include center(85%)
+      line-height: 24px
     em
       @include font($font-main, 14px, normal, italic)
 .main-bottom
   margin: 20px 0 0 0
+  @include breakpoint(xs)
+    margin: 40px 0 0 0
   svg
     @include center(25%)
     @include breakpoint(xxs)
       width: 20%
+    @include breakpoint(xs)
+      width: 15%
+    @include breakpoint(m)
+      width: 10%
 aside
   display: none
   position: absolute
