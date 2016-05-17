@@ -53,6 +53,7 @@ html, body, .site-container
   height: 100%
 body
   @include font($font-main, 14px, normal, normal)
+  color: $color-typography
   background-color: $color-backround
 .site-container
   width: 100%
@@ -65,6 +66,8 @@ body
     margin: 20px 0 0 0
   @include breakpoint(m)
     margin: 40px 0 0 0
+  @include breakpoint(l)
+    width: 60%
 .main-top
   @include center(100%)
   @include breakpoint(xxs)
@@ -91,6 +94,9 @@ body
       border: none
       @include breakpoint(xxxs)
         top: 0
+      @include breakpoint(l)
+        @media screen and (min-height: 768px)
+          display: none
     svg
       display: none
       margin: 0 0 40px 0
@@ -152,12 +158,39 @@ aside
   right: 0
   width: 60%
   height: 100%
-  div
+  @include breakpoint(l)
+    position: fixed
+    display: block
+    width: 40%
+  ul
     padding: 0 0 0.5% 0
     background: #000
+    li
+      position: relative
+      display: inline-block
+      width: 90%
+      margin: 2.5%
+      @include breakpoint(xxs)
+        width: 47%
+        margin: 1% 0 0 1%
+      @include breakpoint(l)
+        width: 49.5%
+        margin: 0
+        @media screen and (min-height: 768px)
+          height: 25%
+          a::after
+            content: ""
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            border: 5px solid #000
+    @include breakpoint(l)
+      height: 100%
   .gallery-img
-    width: 90%
-    margin: 2.5%
-    @include breakpoint(xxs)
-      width: 47%
-      margin: 1% 0 0 1%
+    width: 100%
+    @include breakpoint(l)
+      @media screen and (min-height: 768px)
+        width: auto
+        height: 100%
