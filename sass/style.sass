@@ -13,12 +13,38 @@ $color-typography: #2d322c
   font-weight: $font-weight
   font-style: $font-style
 
+@mixin breakpoint($point)
+  @if $point == xxxs
+    @media screen and (min-width: 300px)
+      @content
+  @if $point == xxs
+    @media screen and (min-width: 480px)
+      @content
+  @else if $point == xs
+    @media screen and (min-width: 640px)
+      @content
+  @else if $point == s
+    @media screen and (min-width: 768px)
+      @content
+  @else if $point == m
+    @media screen and (min-width: 1024px)
+      @content
+  @else if $point == l
+    @media screen and (min-width: 1280px)
+      @content
+  @else if $point == xl
+    @media screen and (min-width: 1600px)
+      @content
+  @else if $point == xxl
+    @media screen and (min-width: 1920px)
+      @content
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic&subset=latin-ext)
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif&subset=latin-ext)
 @import "compass/reset"
 
 .center
-  @include center(75%)
+  @include center(85%)
 
 html, body, .site-container
   height: 100%
@@ -28,33 +54,75 @@ body
 .site-container
   width: 100%
 .main
-  float: left
-  width: 62%
+  display: block
+  margin: 40px 0 0 0
+  @include breakpoint(xxxs)
+    margin: 10px 0 0 0
 .main-top
-  @include center(80%)
-  svg
+  @include center(100%)
+  @include breakpoint(xxs)
+    width: 85%
+  div
+    position: absolute
     display: inline-block
-    width: 59%
+    width: 45%
+    margin: 0 3% 0 0
+    @include breakpoint(xxxs)
+      position: initial
+    button
+      position: fixed
+      top: -25px
+      left: 0
+      background: none
+      border: none
+      @include breakpoint(xxxs)
+        top: 0
+    svg
+      display: none
+      margin: 0 0 40px 0
+      @include breakpoint(xxxs)
+        display: block
+      @include breakpoint(xxs)
+        margin: 0 0 20px 0
   h1
     display: inline-block
     text-transform: uppercase
     text-align: right
-    @include font($font-main, 64px, bold, normal)
+    @include font($font-main, 32px, bold, normal)
     span
       position: absolute
-      margin: 40px 0 0 15px
+      margin: 15px 0 0 10px
       text-transform: none
-      @include font($font-serif, 18px, normal, normal)
+      @include font($font-serif, 14px, normal, normal)
 .main-middle
+  margin: 20px 0 0 0
   p
     display: inline-block
     line-height: 18px
+    text-align: justify
+    @include breakpoint(xxs)
+      text-align: left
     em
       @include font($font-main, 14px, normal, italic)
+.main-bottom
+  margin: 20px 0 0 0
+  svg
+    @include center(25%)
+    @include breakpoint(xxs)
+      width: 20%
 aside
-  float: right
-  width: 38%
+  display: none
+  position: absolute
+  top: 0
+  right: 0
+  width: 60%
   height: 100%
-  background: #000
+  div
+    padding: 0 0 0.5% 0
+    background: #000
   .gallery-img
-    width: 49%
+    width: 90%
+    margin: 2.5%
+    @include breakpoint(xxs)
+      width: 47%
+      margin: 1% 0 0 1%

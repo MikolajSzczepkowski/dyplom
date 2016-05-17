@@ -65,19 +65,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 20, ../sass/style.sass */
+/* line 46, ../sass/style.sass */
 .center {
   display: block;
-  width: 75%;
+  width: 85%;
   margin: 0 auto;
 }
 
-/* line 23, ../sass/style.sass */
+/* line 49, ../sass/style.sass */
 html, body, .site-container {
   height: 100%;
 }
 
-/* line 25, ../sass/style.sass */
+/* line 51, ../sass/style.sass */
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -86,55 +86,117 @@ body {
   background-color: #e6d6bf;
 }
 
-/* line 28, ../sass/style.sass */
+/* line 54, ../sass/style.sass */
 .site-container {
   width: 100%;
 }
 
-/* line 30, ../sass/style.sass */
+/* line 56, ../sass/style.sass */
 .main {
-  float: left;
-  width: 62%;
+  display: block;
+  margin: 40px 0 0 0;
+}
+@media screen and (min-width: 300px) {
+  /* line 56, ../sass/style.sass */
+  .main {
+    margin: 10px 0 0 0;
+  }
 }
 
-/* line 33, ../sass/style.sass */
+/* line 61, ../sass/style.sass */
 .main-top {
   display: block;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
-/* line 35, ../sass/style.sass */
-.main-top svg {
-  display: inline-block;
-  width: 59%;
+@media screen and (min-width: 480px) {
+  /* line 61, ../sass/style.sass */
+  .main-top {
+    width: 85%;
+  }
 }
-/* line 38, ../sass/style.sass */
+/* line 65, ../sass/style.sass */
+.main-top div {
+  position: absolute;
+  display: inline-block;
+  width: 45%;
+  margin: 0 3% 0 0;
+}
+@media screen and (min-width: 300px) {
+  /* line 65, ../sass/style.sass */
+  .main-top div {
+    position: initial;
+  }
+}
+/* line 72, ../sass/style.sass */
+.main-top div button {
+  position: fixed;
+  top: -25px;
+  left: 0;
+  background: none;
+  border: none;
+}
+@media screen and (min-width: 300px) {
+  /* line 72, ../sass/style.sass */
+  .main-top div button {
+    top: 0;
+  }
+}
+/* line 80, ../sass/style.sass */
+.main-top div svg {
+  display: none;
+  margin: 0 0 40px 0;
+}
+@media screen and (min-width: 300px) {
+  /* line 80, ../sass/style.sass */
+  .main-top div svg {
+    display: block;
+  }
+}
+@media screen and (min-width: 480px) {
+  /* line 80, ../sass/style.sass */
+  .main-top div svg {
+    margin: 0 0 20px 0;
+  }
+}
+/* line 87, ../sass/style.sass */
 .main-top h1 {
   display: inline-block;
   text-transform: uppercase;
   text-align: right;
   font-family: "Open Sans", sans-serif;
-  font-size: 64px;
+  font-size: 32px;
   font-weight: bold;
   font-style: normal;
 }
-/* line 43, ../sass/style.sass */
+/* line 92, ../sass/style.sass */
 .main-top h1 span {
   position: absolute;
-  margin: 40px 0 0 15px;
+  margin: 15px 0 0 10px;
   text-transform: none;
   font-family: "Noto Serif", serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: normal;
   font-style: normal;
 }
 
-/* line 49, ../sass/style.sass */
+/* line 97, ../sass/style.sass */
+.main-middle {
+  margin: 20px 0 0 0;
+}
+/* line 99, ../sass/style.sass */
 .main-middle p {
   display: inline-block;
   line-height: 18px;
+  text-align: justify;
 }
-/* line 52, ../sass/style.sass */
+@media screen and (min-width: 480px) {
+  /* line 99, ../sass/style.sass */
+  .main-middle p {
+    text-align: left;
+  }
+}
+/* line 105, ../sass/style.sass */
 .main-middle p em {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -142,14 +204,46 @@ body {
   font-style: italic;
 }
 
-/* line 54, ../sass/style.sass */
+/* line 107, ../sass/style.sass */
+.main-bottom {
+  margin: 20px 0 0 0;
+}
+/* line 109, ../sass/style.sass */
+.main-bottom svg {
+  display: block;
+  width: 25%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  /* line 109, ../sass/style.sass */
+  .main-bottom svg {
+    width: 20%;
+  }
+}
+
+/* line 113, ../sass/style.sass */
 aside {
-  float: right;
-  width: 38%;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
   height: 100%;
+}
+/* line 120, ../sass/style.sass */
+aside div {
+  padding: 0 0 0.5% 0;
   background: #000;
 }
-/* line 59, ../sass/style.sass */
+/* line 123, ../sass/style.sass */
 aside .gallery-img {
-  width: 49%;
+  width: 90%;
+  margin: 2.5%;
+}
+@media screen and (min-width: 480px) {
+  /* line 123, ../sass/style.sass */
+  aside .gallery-img {
+    width: 47%;
+    margin: 1% 0 0 1%;
+  }
 }
