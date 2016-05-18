@@ -68,6 +68,11 @@ body
     margin: 40px 0 0 0
   @include breakpoint(l)
     width: 60%
+    @media screen and (min-height: 768px)
+      height: 100%
+      margin: 10% 0 0 0
+  @include breakpoint(xxl)
+    margin: 5% 0 0 0
 .main-top
   @include center(100%)
   @include breakpoint(xxs)
@@ -116,6 +121,9 @@ body
     @include breakpoint(s)
       font-size: 52px
       line-height: 64px
+    @include breakpoint(xl)
+      font-size: 64px
+      line-height: 72px
     span
       position: absolute
       margin: 15px 0 0 10px
@@ -126,10 +134,16 @@ body
       @include breakpoint(xs)
         margin: 12px 0 0 10px
         font-size: 16px
+      @include breakpoint(xs)
+        margin: 16px 0 0 15px
+        font-size: 18px
 .main-middle
   margin: 20px 0 0 0
   @include breakpoint(xs)
     margin: 40px 0 0 0
+  @include breakpoint(l)
+    @media screen and (min-height: 768px)
+      margin: 10% 0 0 0
   p
     display: inline-block
     line-height: 18px
@@ -137,12 +151,22 @@ body
     @include breakpoint(sm)
       @include center(85%)
       line-height: 24px
+    @include breakpoint(xl)
+      @include center(75%)
+      font-size: 16px
+      line-height: 32px
     em
       @include font($font-main, 14px, normal, italic)
+      @include breakpoint(xl)
+        font-size: 16px
+        line-height: 32px
 .main-bottom
   margin: 20px 0 0 0
   @include breakpoint(xs)
     margin: 40px 0 0 0
+  @include breakpoint(l)
+    @media screen and (min-height: 768px)
+      margin: 10% 0 0 0
   svg
     @include center(25%)
     @include breakpoint(xxs)
@@ -170,6 +194,9 @@ aside
       display: inline-block
       width: 90%
       margin: 2.5%
+      &:hover ::after
+        background: rgba(0, 0, 0, 0.5)
+        transition: background 0.2s ease-in-out
       @include breakpoint(xxs)
         width: 47%
         margin: 1% 0 0 1%
@@ -194,3 +221,62 @@ aside
       @media screen and (min-height: 768px)
         width: auto
         height: 100%
+.ui-widget-overlay
+  background: rgba(0, 0, 0, 0.5)
+  opacity: 1
+.no-title .ui-dialog-titlebar
+  display: none
+.gallery
+  position: absolute
+  overflow: visible
+  background: #ddd
+  border: none
+  @include breakpoint(l)
+    position: fixed
+  div
+    display: inline-block
+  #modal
+    overflow: visible
+  button
+    position: absolute
+    top: -48px
+    left: -48px
+    width: 50px
+    height: 50px
+    background: none
+    border: none
+    cursor: pointer
+    svg
+      position: absolute
+      top: 4px
+      left: 4px
+      circle
+        fill: #ddd
+      line
+        stroke: #333
+  div#modalImgHolder
+    width: 100%
+    @include breakpoint(l)
+      width: 69%
+    img
+      @include center(auto)
+      max-width: 100%
+      @include breakpoint(l)
+        margin: 0
+  div#modalTextHolder
+    width: 100%
+    vertical-align: top
+    @include breakpoint(l)
+      float: right
+      width: 30%
+  h2
+    padding: 5px 0
+    @include font($font-main, 18px, normal, normal)
+    @include breakpoint(l)
+      padding: 0 0 5px 0
+  h3
+    @include font($font-main, 18px, normal, italic)
+    padding: 0 0 15px 0
+  p
+    text-align: justify
+    line-height: 18px

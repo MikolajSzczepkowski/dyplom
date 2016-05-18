@@ -12,7 +12,7 @@
       <section class="center">
         <div class="main-top">
 					<div>
-						<button id="openGallery">sprawdź</button>
+						<button id="openAside">sprawdź</button>
 						<svg version="1.1" id="crane" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 274 181.25" enable-background="new 0 0 274 181.25" xml:space="preserve">
 							<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="270.57" y1="137.891" x2="240.779" y2="84.24"/>
 							<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="133.07,152.266 165.07,180.141 247.57,75.641 	"/>
@@ -56,19 +56,38 @@
         </div>
       </section>
     </section>
-    <aside id="gallery">
+    <aside id="aside">
       <ul>
-        <li><a href="#"><img src="images/hiroshige/Hiroshige_A_great_wave_by_the_coast.jpg" alt="Hiroshige A great wave by the coast" title="Hiroshige A great wave by the coast" class="gallery-img"/></a></li>
-				<li><a href="#"><img src="images/hiroshige/Hiroshige_Evening_view_of_a_temple_in_the_hills.jpg" alt="Hiroshige Evening view of a temple in the hills" title="Hiroshige Evening view of a temple in the hills" class="gallery-img"/></a></li>
-				<li><a href="#"><img src="images/hiroshige/Hiroshige_Full_moon_over_a_mountain_landscape.jpg" alt="Hiroshige Full moon over a mountain landscape" title="Hiroshige Full moon over a mountain landscape" class="gallery-img"/></a></li>
-				<li><a href="#"><img src="images/hiroshige/Hiroshige_Man_on_horseback_crossing_a_bridge.jpg" alt="Hiroshige Man on horseback crossing a bridge" title="Hiroshige Man on horseback crossing a bridge" class="gallery-img"/></a></li>
-				<li><a href="#"><img src="images/hiroshige/Hiroshige_People_under_maple_trees_by_a_stream.jpg" alt="Hiroshige People under maple trees by a stream" title="Hiroshige People under maple trees by a stream" class="gallery-img"/></a></li>
-				<li><a href="#"><img src="images/hiroshige/Hiroshige_Shrines_in_snowy_mountains.jpg" alt="Hiroshige Shrines in snowy mountains" title="Hiroshige Shrines in snowy mountains" class="gallery-img"/></a></li>
-				<li><a href="#"><img src="images/hiroshige/Hiroshige_Travellers_surprised_by_sudden_rain.jpg" alt="Hiroshige Travellers surprised by sudden rain" title="Hiroshige Travellers surprised by sudden rain" class="gallery-img"/></a></li>
-				<li><a href="#"><img src="images/hiroshige/Hiroshige_Evening_snow_at_Kanbara.jpg" alt="Hiroshige Evening snow at Kanbara" title="Hiroshige Evening snow at Kanbara" class="gallery-img"/></a></li>
+        <li><a href="#"><img src="images/hiroshige/Hiroshige_A_great_wave_by_the_coast.jpg" alt="Hiroshige A great wave by the coast" title="A great wave by the coast" class="gallery-img"/></a></li>
+				<li><a href="#"><img src="images/hiroshige/Hiroshige_Evening_view_of_a_temple_in_the_hills.jpg" alt="Hiroshige Evening view of a temple in the hills" title="Evening view of a temple in the hills" class="gallery-img"/></a></li>
+				<li><a href="#"><img src="images/hiroshige/Hiroshige_Full_moon_over_a_mountain_landscape.jpg" alt="Hiroshige Full moon over a mountain landscape" title="Full moon over a mountain landscape" class="gallery-img"/></a></li>
+				<li><a href="#"><img src="images/hiroshige/Hiroshige_Man_on_horseback_crossing_a_bridge.jpg" alt="Hiroshige Man on horseback crossing a bridge" title="Man on horseback crossing a bridge" class="gallery-img"/></a></li>
+				<li><a href="#"><img src="images/hiroshige/Hiroshige_People_under_maple_trees_by_a_stream.jpg" alt="Hiroshige People under maple trees by a stream" title="People under maple trees by a stream" class="gallery-img"/></a></li>
+				<li><a href="#"><img src="images/hiroshige/Hiroshige_Shrines_in_snowy_mountains.jpg" alt="Hiroshige Shrines in snowy mountains" title="Shrines in snowy mountains" class="gallery-img"/></a></li>
+				<li><a href="#"><img src="images/hiroshige/Hiroshige_Travellers_surprised_by_sudden_rain.jpg" alt="Hiroshige Travellers surprised by sudden rain" title="Travellers surprised by sudden rain" class="gallery-img"/></a></li>
+				<li><a href="#"><img src="images/hiroshige/Hiroshige_Evening_snow_at_Kanbara.jpg" alt="Hiroshige Evening snow at Kanbara" title="Evening snow at Kanbara" class="gallery-img"/></a></li>
       </ul>
     </aside>
   </div>
+	<div id="modal">
+		<button id="closeModal">
+			<svg>
+		    <circle cx="20" cy="20" r="20"/>
+		    <line stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x1="10" y1="10" x2="30" y2="30"/>
+		    <line stroke-width="3" stroke-linecap="round" stroke-linejoin="round" x1="30" y1="10" x2="10" y2="30"/>
+		  </svg>
+		</button>
+		<div id="modalImgHolder">
+			<img src="images/hiroshige/Hiroshige_A_great_wave_by_the_coast.jpg" alt="Hiroshige A great wave by the coast" />
+		</div>
+		<div id="modalTextHolder">
+			<h2>Hiroshige</h2>
+			<h3>A great wave by the coast</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+	</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/SVG-Morpheus/0.1.8/svg-morpheus.js"></script>
