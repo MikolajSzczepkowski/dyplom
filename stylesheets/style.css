@@ -194,7 +194,7 @@ body {
     top: 0;
   }
 }
-@media screen and (min-width: 1280px) and (min-height: 768px) {
+@media screen and (min-width: 1280px) and (min-height: 600px) {
   /* line 94, ../sass/style.sass */
   .main-top div button {
     display: none;
@@ -511,30 +511,35 @@ aside .gallery-img {
   cursor: pointer;
 }
 /* line 249, ../sass/style.sass */
+.gallery button:hover {
+  opacity: 0.7;
+  transition: opacity 0.2s ease-in-out;
+}
+/* line 252, ../sass/style.sass */
 .gallery button svg {
   position: absolute;
   top: 4px;
   left: 4px;
 }
-/* line 253, ../sass/style.sass */
+/* line 256, ../sass/style.sass */
 .gallery button svg circle {
   fill: #ddd;
 }
-/* line 255, ../sass/style.sass */
+/* line 258, ../sass/style.sass */
 .gallery button svg line {
   stroke: #333;
 }
-/* line 257, ../sass/style.sass */
+/* line 260, ../sass/style.sass */
 .gallery div#modalImgHolder {
   width: 100%;
 }
 @media screen and (min-width: 1280px) {
-  /* line 257, ../sass/style.sass */
+  /* line 260, ../sass/style.sass */
   .gallery div#modalImgHolder {
     width: 69%;
   }
 }
-/* line 261, ../sass/style.sass */
+/* line 264, ../sass/style.sass */
 .gallery div#modalImgHolder img {
   display: block;
   width: auto;
@@ -542,24 +547,24 @@ aside .gallery-img {
   max-width: 100%;
 }
 @media screen and (min-width: 1280px) {
-  /* line 261, ../sass/style.sass */
+  /* line 264, ../sass/style.sass */
   .gallery div#modalImgHolder img {
     margin: 0;
   }
 }
-/* line 266, ../sass/style.sass */
+/* line 269, ../sass/style.sass */
 .gallery div#modalTextHolder {
   width: 100%;
   vertical-align: top;
 }
 @media screen and (min-width: 1280px) {
-  /* line 266, ../sass/style.sass */
+  /* line 269, ../sass/style.sass */
   .gallery div#modalTextHolder {
     float: right;
     width: 30%;
   }
 }
-/* line 272, ../sass/style.sass */
+/* line 275, ../sass/style.sass */
 .gallery h2 {
   padding: 5px 0;
   font-family: "Open Sans", sans-serif;
@@ -568,12 +573,12 @@ aside .gallery-img {
   font-style: normal;
 }
 @media screen and (min-width: 1280px) {
-  /* line 272, ../sass/style.sass */
+  /* line 275, ../sass/style.sass */
   .gallery h2 {
     padding: 0 0 5px 0;
   }
 }
-/* line 277, ../sass/style.sass */
+/* line 280, ../sass/style.sass */
 .gallery h3 {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
@@ -581,7 +586,7 @@ aside .gallery-img {
   font-style: italic;
   padding: 0 0 15px 0;
 }
-/* line 280, ../sass/style.sass */
+/* line 283, ../sass/style.sass */
 .gallery p {
   text-align: justify;
   line-height: 18px;
