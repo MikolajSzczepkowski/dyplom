@@ -93,6 +93,7 @@ body
       margin: 0 10% 0 8%
     button
       position: fixed
+      z-index: 100
       top: -25px
       left: 0
       background: none
@@ -131,10 +132,10 @@ body
       @include font($font-serif, 14px, normal, normal)
       @include breakpoint(xs)
         margin: 22px 0 0 10px
-      @include breakpoint(xs)
+      @include breakpoint(s)
         margin: 12px 0 0 10px
         font-size: 16px
-      @include breakpoint(xs)
+      @include breakpoint(xl)
         margin: 16px 0 0 15px
         font-size: 18px
 .main-middle
@@ -175,17 +176,50 @@ body
       width: 15%
     @include breakpoint(m)
       width: 10%
+.origami
+  a
+    position: fixed
+    bottom: 25px
+    left: 25px
+  li
+    height: 500px
+    opacity: 0
+    transition: opacity 0.2s
+  .active
+    opacity: 1
+  div
+    position: fixed
+    bottom: 20px
+    left: 50%
+    margin-left: -420px
+    @media (min-width: 450px) and (orientation: landscape)
+      left: 0
+      margin-left: 0
+      @include breakpoint(l)
+        @media screen and (min-height: 600px)
+          left: auto
+  img
+    @include center(auto)
+    max-height: 100%
+    @media (min-width: 450px) and (orientation: landscape)
+      @include center(100%)
+      max-height: auto
+  p
+    margin: -90px 0 50px 0
+    text-align: center
+    @include font($font-main, 16px, normal, normal)
+
 aside
   display: none
   position: absolute
   top: 0
   right: 0
   width: 60%
-  height: 100%
   @include breakpoint(l)
     position: fixed
     display: block
     width: 40%
+    height: 100%
   ul
     padding: 0 0 0.5% 0
     background: #000

@@ -4,51 +4,185 @@ $(function(){
       src: "images/hiroshige/Hiroshige_A_great_wave_by_the_coast.jpg",
       color: "#e3d4bd",
       darkerColor: "#AB8E6C",
+      typoColor: "#2d322c",
       text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
     },
     { title: "Evening view of a temple in the hills",
       src: "images/hiroshige/Hiroshige_Evening_view_of_a_temple_in_the_hills.jpg",
       color: "#839987",
-      darkerColor: "#4C594F",
+      darkerColor: "#516655",
+      typoColor: "#DBE5DD",
       text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
     },
     { title: "Full moon over a mountain landscape",
       src: "images/hiroshige/Hiroshige_Full_moon_over_a_mountain_landscape.jpg",
       color: "#c5b9a3",
       darkerColor: "#918878",
+      typoColor: "#2d322c",
       text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
     },
     { title: "Man on horseback crossing a bridge",
       src: "images/hiroshige/Hiroshige_Man_on_horseback_crossing_a_bridge.jpg",
       color: "#af9e72",
       darkerColor: "#7d7151",
+      typoColor: "#FBEABD",
       text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
     },
     { title: "People under maple trees by a stream",
       src: "images/hiroshige/Hiroshige_People_under_maple_trees_by_a_stream.jpg",
-      color: "#9F4533",
-      darkerColor: "#5F291F",
+      color: "#b64f48",
+      darkerColor: "#a03c37",
+      typoColor: "#e6d6bf",
       text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
     },
     { title: "Shrines in snowy mountains",
       src: "images/hiroshige/Hiroshige_Shrines_in_snowy_mountains.jpg",
-      color: "#848283",
-      darkerColor: "#525051",
+      color: "#436fac",
+      darkerColor: "#004078",
+      typoColor: "#d8d8d8",
       text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
     },
     { title: "Travellers surprised by sudden rain",
       src: "images/hiroshige/Hiroshige_Travellers_surprised_by_sudden_rain.jpg",
-      color: "#E9BC35",
-      darkerColor: "#A98926",
+      color: "#e7bc54",
+      darkerColor: "#ae881e",
+      typoColor: "#2d322c",
       text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
     },
     { title: "Evening snow at Kanbara",
       src: "images/hiroshige/Hiroshige_Evening_snow_at_Kanbara.jpg",
       color: "#BEBEBE",
-      darkerColor: "#3E3E3E",
+      darkerColor: "#898989",
+      typoColor: "#2d322c",
       text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
     }
-  ];
+  ],
+    svg = [
+      { path: "images/svg/crane-01.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-02.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-03.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-04.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-05.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-06.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-07.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-08.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-09.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-10.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-11.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-12.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-13.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-14.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-15.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-16.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-17.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-18.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-19.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-20.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-21.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-22.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-23.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-24.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-25.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-26.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-27.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-28.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-29.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-30.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-31.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-32.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-33.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-34.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-35.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-36.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-37.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-38.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-39.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-40.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-41.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
+      }
+    ],
+    controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 500}});
 
   $("#openAside").on("click", function(){
     if ($("#aside").hasClass("active")) {
@@ -96,11 +230,39 @@ $(function(){
         $("#modalImgHolder img").attr("src", image[i].src);
         $("#modalTextHolder h3").text(image[i].title);
         $("#modalTextHolder p").text(image[i].text);
+        $("#modalTextHolder").css("color", image[i].typoColor);
         $(".gallery").css("background", image[i].color);
         $("#closeModal circle").css("fill", image[i].color);
         $("#closeModal line").css("stroke", image[i].darkerColor);
       }
     }
     $( "#modal" ).dialog( "open" );
+  });
+
+  $.each( svg, function(){
+    var path = this.path,
+      craneName = path.slice(11, path.length - 4),
+      liId = "#" + craneName,
+      image = "<img src=" + path + " alt=" + craneName + " />",
+      instruction = "<p>" + this.instruction + "</p>";
+
+    $("#origami ul").append("<li id=" + craneName + "><div>" + image + instruction + "</div></li>");
+
+    new ScrollMagic.Scene({triggerElement: liId})
+              .setClassToggle( liId , "active")
+              .addTo(controller);
+  });
+
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 800);
+        return false;
+      }
+    }
   });
 });
