@@ -27,14 +27,14 @@
 </g>
 <g id="Layer_12">
 	<g>
-		<polyline display="none" fill="none" stroke="#000000" stroke-miterlimit="10" points="431.998,360.472 423.246,493.607 
-			521.372,397.86 421.097,498.081 320.876,397.86 419.164,493.606 320.517,394.854 421.206,492.481 		"/>
-		<polyline id="pion_30_" fill="none" stroke="#000000" stroke-miterlimit="10" points="521.745,398.104 420.841,297.728 
-			320.517,398.221 		"/>
-		<line display="none" fill="none" stroke="#000000" stroke-miterlimit="10" x1="321.032" y1="394.856" x2="420.737" y2="297.645"/>
+		<polyline display="none" fill="none" stroke="#000000" stroke-miterlimit="10" points="431.557,359.477 422.805,492.612 
+			520.931,396.865 420.656,497.086 320.435,396.865 418.723,492.611 320.076,393.858 420.765,491.486 		"/>
+		<polyline id="pion_30_" fill="none" stroke="#000000" stroke-miterlimit="10" points="521.304,397.108 420.4,296.732 
+			320.076,397.226 		"/>
+		<line display="none" fill="none" stroke="#000000" stroke-miterlimit="10" x1="320.591" y1="393.861" x2="420.296" y2="296.649"/>
 		<g id="gora" display="none">
-			<polygon display="inline" fill="#FFFFFF" stroke="#000000" stroke-width="0.7" stroke-miterlimit="10" points="490.113,360.472 
-				421.095,492.856 320.876,396.064 420.737,297.645 			"/>
+			<polygon display="inline" fill="#FFFFFF" stroke="#000000" stroke-width="0.7" stroke-miterlimit="10" points="489.672,359.477 
+				420.654,491.861 320.435,395.069 420.296,296.649 			"/>
 			<g display="inline">
 				<g>
 					<g>
@@ -42,231 +42,231 @@
 							<g>
 								<g>
 									
-										<rect x="416.437" y="482.491" transform="matrix(0.0018 1 -1 0.0018 908.0588 65.7949)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.996" y="481.496" transform="matrix(0.0018 1 -1 0.0018 906.6235 65.2425)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.696" y="483.789" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.702" y="486.876" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.707" y="489.953" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.255" y="482.794" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.261" y="485.881" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.266" y="488.958" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.42" y="473.218" transform="matrix(0.0017 1 -1 0.0017 898.7916 56.5804)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.979" y="472.223" transform="matrix(0.0017 1 -1 0.0017 897.3563 56.0279)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.679" y="474.516" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.685" y="477.603" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.69" y="480.679" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.722"/>
+								<rect x="420.239" y="473.521" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.244" y="476.608" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.25" y="479.684" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.722"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.404" y="463.945" transform="matrix(0.0018 1 -1 0.0018 889.48 47.3152)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.963" y="462.95" transform="matrix(0.0018 1 -1 0.0018 888.045 46.7625)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.664" y="465.243" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.669" y="468.33" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.674" y="471.407" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.223" y="464.248" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.228" y="467.335" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.233" y="470.412" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.387" y="454.672" transform="matrix(0.0017 1 -1 0.0017 880.213 38.0994)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.946" y="453.677" transform="matrix(0.0017 1 -1 0.0017 878.7778 37.5469)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.647" y="455.969" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.722"/>
-								<rect x="420.652" y="459.057" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.657" y="462.134" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.722"/>
+								<rect x="420.206" y="454.974" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.722"/>
+								<rect x="420.211" y="458.062" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.217" y="461.138" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.722"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.371" y="445.399" transform="matrix(0.0018 1 -1 0.0018 870.9015 28.8352)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.93" y="444.404" transform="matrix(0.0018 1 -1 0.0018 869.4663 28.2828)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.631" y="446.697" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.636" y="449.784" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.642" y="452.861" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.19" y="445.702" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.195" y="448.789" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.201" y="451.866" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.354" y="436.126" transform="matrix(0.0017 1 -1 0.0017 861.6345 19.6184)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.914" y="435.131" transform="matrix(0.0017 1 -1 0.0017 860.1992 19.066)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.614" y="437.424" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.619" y="440.511" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.625" y="443.588" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.173" y="436.429" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.178" y="439.516" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.184" y="442.593" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.338" y="426.853" transform="matrix(0.0018 1 -1 0.0018 852.323 10.3552)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.897" y="425.858" transform="matrix(0.0018 1 -1 0.0018 850.8878 9.8028)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.598" y="428.151" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.604" y="431.238" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.609" y="434.315" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.157" y="427.156" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.163" y="430.243" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.168" y="433.32" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.322" y="417.58" transform="matrix(0.0017 1 -1 0.0017 843.056 1.1375)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.881" y="416.585" transform="matrix(0.0017 1 -1 0.0017 841.6207 0.585)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.582" y="418.878" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.587" y="421.965" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.592" y="425.042" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.141" y="417.883" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.146" y="420.97" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.151" y="424.047" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.305" y="408.307" transform="matrix(0.0018 1 -1 0.0018 833.7445 -8.1248)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.865" y="407.312" transform="matrix(0.0018 1 -1 0.0018 832.3092 -8.6772)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.565" y="409.605" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.571" y="412.692" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.576" y="415.769" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.124" y="408.61" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.13" y="411.697" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.135" y="414.774" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.289" y="399.034" transform="matrix(0.0017 1 -1 0.0017 824.4772 -17.3437)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.848" y="398.039" transform="matrix(0.0017 1 -1 0.0017 823.042 -17.8961)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.549" y="400.332" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.554" y="403.419" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.722"/>
-								<rect x="420.559" y="406.496" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.108" y="399.337" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.113" y="402.424" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.722"/>
+								<rect x="420.118" y="405.501" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.273" y="389.761" transform="matrix(0.0018 1 -1 0.0018 815.1657 -26.605)" fill="none" width="9.272" height="10.499"/>
+										<rect x="415.832" y="388.766" transform="matrix(0.0018 1 -1 0.0018 813.7305 -27.1574)" fill="none" width="9.272" height="10.499"/>
 								</g>
-								<rect x="420.532" y="391.059" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.538" y="394.146" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.543" y="397.223" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.091" y="390.064" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.097" y="393.151" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.103" y="396.228" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.256" y="380.488" transform="matrix(0.0017 1 -1 0.0017 805.8987 -35.8246)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.815" y="379.493" transform="matrix(0.0017 1 -1 0.0017 804.4634 -36.3771)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.516" y="381.786" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.521" y="384.873" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.527" y="387.95" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.075" y="380.791" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.081" y="383.878" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.086" y="386.955" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.24" y="371.215" transform="matrix(0.0018 1 -1 0.0018 796.5869 -45.0852)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.799" y="370.22" transform="matrix(0.0018 1 -1 0.0018 795.1517 -45.6376)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.499" y="372.513" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.505" y="375.6" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.511" y="378.677" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.059" y="371.518" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.064" y="374.605" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.07" y="377.682" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.224" y="361.942" transform="matrix(0.0017 1 -1 0.0017 787.3199 -54.3059)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.783" y="360.947" transform="matrix(0.0017 1 -1 0.0017 785.8846 -54.8583)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.483" y="363.24" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.489" y="366.327" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.494" y="369.404" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.042" y="362.245" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.048" y="365.332" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.053" y="368.409" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.207" y="352.669" transform="matrix(0.0018 1 -1 0.0018 778.0084 -63.5652)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.766" y="351.674" transform="matrix(0.0018 1 -1 0.0018 776.5731 -64.1176)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.467" y="353.967" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.472" y="357.054" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.478" y="360.131" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.026" y="352.972" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.031" y="356.059" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.037" y="359.136" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.191" y="343.396" transform="matrix(0.0017 1 -1 0.0017 768.7413 -72.7868)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.75" y="342.401" transform="matrix(0.0017 1 -1 0.0017 767.3061 -73.3393)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.451" y="344.694" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.456" y="347.781" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.461" y="350.858" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.01" y="343.699" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.015" y="346.786" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.021" y="349.863" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.175" y="334.123" transform="matrix(0.0018 1 -1 0.0018 759.4299 -82.0452)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.734" y="333.128" transform="matrix(0.0018 1 -1 0.0018 757.9946 -82.5976)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.434" y="335.421" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.439" y="338.508" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.445" y="341.585" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="419.993" y="334.426" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="419.999" y="337.513" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="420.004" y="340.59" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.158" y="324.85" transform="matrix(0.0017 1 -1 0.0017 750.1628 -91.2678)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.717" y="323.855" transform="matrix(0.0018 1 -1 0.0018 748.7054 -91.8376)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.418" y="326.148" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.423" y="329.235" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.429" y="332.313" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="419.977" y="325.153" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="419.982" y="328.24" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="419.988" y="331.317" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.142" y="315.577" transform="matrix(0.0018 1 -1 0.0018 740.8513 -100.5251)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.701" y="314.582" transform="matrix(0.0017 1 -1 0.0017 739.438 -101.0605)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.401" y="316.875" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.407" y="319.962" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.413" y="323.04" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="419.96" y="315.88" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="419.966" y="318.967" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="419.971" y="322.044" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.125" y="306.305" transform="matrix(0.0018 1 -1 0.0018 731.5621 -109.7651)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.685" y="305.31" transform="matrix(0.0018 1 -1 0.0018 730.1268 -110.3175)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.385" y="307.602" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.391" y="310.689" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.396" y="313.766" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="419.944" y="306.607" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="419.95" y="309.694" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="419.955" y="312.771" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 						<g>
 							<g>
 								<g>
 									
-										<rect x="416.109" y="297.031" transform="matrix(0.0017 1 -1 0.0017 722.2948 -118.989)" fill="none" width="9.273" height="10.499"/>
+										<rect x="415.668" y="296.036" transform="matrix(0.0017 1 -1 0.0017 720.8595 -119.5414)" fill="none" width="9.273" height="10.499"/>
 								</g>
-								<rect x="420.368" y="298.33" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.374" y="301.417" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
-								<rect x="420.379" y="304.494" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="419.927" y="297.334" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="419.933" y="300.421" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
+								<rect x="419.938" y="303.499" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.721"/>
 							</g>
 						</g>
 					</g>
@@ -274,8 +274,8 @@
 			</g>
 		</g>
 	</g>
-	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M420.737,298.001"/>
-	<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="520.957,398.221 420.737,498.44 320.518,398.221 	"/>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M420.296,297.006"/>
+	<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="520.516,397.226 420.296,497.445 320.077,397.226 	"/>
 	<g>
 		<g>
 			<g>
@@ -283,107 +283,107 @@
 					<g>
 						<g>
 							
-								<rect x="416.644" y="350.734" transform="matrix(0.0068 1 -1 0.0068 774.2437 -67.559)" fill="none" width="8.975" height="10.499"/>
+								<rect x="416.203" y="349.739" transform="matrix(0.0068 1 -1 0.0068 772.8107 -68.1064)" fill="none" width="8.975" height="10.499"/>
 						</g>
 						
-							<rect x="420.74" y="352.158" transform="matrix(-1 0.007 -0.007 -1 844.9816 703.0367)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.299" y="351.163" transform="matrix(-1 0.007 -0.007 -1 844.0928 701.0496)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 						
-							<rect x="420.76" y="355.147" transform="matrix(-1 0.007 -0.007 -1 845.0441 709.0112)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.32" y="354.152" transform="matrix(-1 0.007 -0.007 -1 844.1553 707.0241)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 						
-							<rect x="420.781" y="358.124" transform="matrix(-1 0.0065 -0.0065 -1 844.9393 715.1641)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.34" y="357.129" transform="matrix(-1 0.0065 -0.0065 -1 844.051 713.1768)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 					</g>
 				</g>
 				<g>
 					<g>
 						<g>
 							
-								<rect x="416.583" y="341.759" transform="matrix(0.0067 1 -1 0.0067 765.2316 -76.3935)" fill="none" width="8.976" height="10.499"/>
+								<rect x="416.142" y="340.764" transform="matrix(0.0067 1 -1 0.0067 763.7985 -76.9409)" fill="none" width="8.976" height="10.499"/>
 						</g>
 						
-							<rect x="420.679" y="343.183" transform="matrix(-1 0.0065 -0.0065 -1 844.6388 685.2836)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.239" y="342.188" transform="matrix(-1 0.0065 -0.0065 -1 843.7515 683.2949)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 						
-							<rect x="420.699" y="346.171" transform="matrix(-1 0.007 -0.007 -1 844.8588 691.0625)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.259" y="345.176" transform="matrix(-1 0.007 -0.007 -1 843.9716 689.0741)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 						
-							<rect x="420.72" y="349.15" transform="matrix(-1 0.007 -0.007 -1 844.9211 697.0175)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.279" y="348.155" transform="matrix(-1 0.007 -0.007 -1 844.0323 695.0304)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 					</g>
 				</g>
 				<g>
 					<g>
 						<g>
 							
-								<rect x="416.523" y="332.784" transform="matrix(0.0067 1 -1 0.0067 756.1957 -85.2478)" fill="none" width="8.975" height="10.499"/>
+								<rect x="416.082" y="331.788" transform="matrix(0.0067 1 -1 0.0067 754.7626 -85.7953)" fill="none" width="8.975" height="10.499"/>
 						</g>
 						
-							<rect x="420.619" y="334.208" transform="matrix(-1 0.007 -0.007 -1 844.6147 667.1353)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.178" y="333.213" transform="matrix(-1 0.007 -0.007 -1 843.726 665.1482)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 						
-							<rect x="420.639" y="337.196" transform="matrix(-1 0.0065 -0.0065 -1 844.5193 673.3093)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.198" y="336.201" transform="matrix(-1 0.0065 -0.0065 -1 843.6305 671.322)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 						
-							<rect x="420.659" y="340.174" transform="matrix(-1 0.007 -0.007 -1 844.7374 679.0675)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.218" y="339.179" transform="matrix(-1 0.007 -0.007 -1 843.8472 677.0817)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 					</g>
 				</g>
 				<g>
 					<g>
 						<g>
 							
-								<rect x="416.462" y="323.808" transform="matrix(0.0067 1 -1 0.0067 747.1606 -94.1018)" fill="none" width="8.975" height="10.499"/>
+								<rect x="416.021" y="322.813" transform="matrix(0.0067 1 -1 0.0067 745.7275 -94.6493)" fill="none" width="8.975" height="10.499"/>
 						</g>
 						
-							<rect x="420.558" y="325.232" transform="matrix(-1 0.0065 -0.0065 -1 844.2808 649.382)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.117" y="324.237" transform="matrix(-1 0.0065 -0.0065 -1 843.3925 647.3947)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 						
-							<rect x="420.578" y="328.22" transform="matrix(-1 0.007 -0.007 -1 844.4919 655.1611)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.137" y="327.225" transform="matrix(-1 0.007 -0.007 -1 843.6031 653.174)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 						
-							<rect x="420.598" y="331.199" transform="matrix(-1 0.0065 -0.0065 -1 844.3987 661.3156)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.157" y="330.204" transform="matrix(-1 0.0065 -0.0065 -1 843.5109 659.3282)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 					</g>
 				</g>
 				<g>
 					<g>
 						<g>
 							
-								<rect x="416.401" y="314.834" transform="matrix(0.0068 1 -1 0.0068 738.1027 -102.973)" fill="none" width="8.976" height="10.499"/>
+								<rect x="415.96" y="313.839" transform="matrix(0.0068 1 -1 0.0068 736.6697 -103.5204)" fill="none" width="8.976" height="10.499"/>
 						</g>
 						
-							<rect x="420.497" y="316.258" transform="matrix(-1 0.007 -0.007 -1 844.2458 631.237)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.056" y="315.262" transform="matrix(-1 0.007 -0.007 -1 843.3571 629.2499)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 						
-							<rect x="420.518" y="319.245" transform="matrix(-1 0.0065 -0.0065 -1 844.1607 637.4078)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.077" y="318.25" transform="matrix(-1 0.0065 -0.0065 -1 843.2725 635.4205)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 						
-							<rect x="420.538" y="322.223" transform="matrix(-1 0.007 -0.007 -1 844.369 643.1674)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.097" y="321.228" transform="matrix(-1 0.007 -0.007 -1 843.4803 641.1803)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 					</g>
 				</g>
 				<g>
 					<g>
 						<g>
 							
-								<rect x="416.341" y="305.858" transform="matrix(0.0067 1 -1 0.0067 729.0898 -111.8101)" fill="none" width="8.975" height="10.499"/>
+								<rect x="415.9" y="304.863" transform="matrix(0.0067 1 -1 0.0067 727.6568 -112.3576)" fill="none" width="8.975" height="10.499"/>
 						</g>
 						
-							<rect x="420.437" y="307.282" transform="matrix(-1 0.0065 -0.0065 -1 843.9207 613.4818)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="419.996" y="306.287" transform="matrix(-1 0.0065 -0.0065 -1 843.0324 611.4945)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 						
-							<rect x="420.457" y="310.27" transform="matrix(-1 0.007 -0.007 -1 844.123 619.2628)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.016" y="309.275" transform="matrix(-1 0.007 -0.007 -1 843.2343 617.2757)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 						
-							<rect x="420.477" y="313.248" transform="matrix(-1 0.0065 -0.0065 -1 844.0406 625.4141)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="420.036" y="312.253" transform="matrix(-1 0.0065 -0.0065 -1 843.1523 623.4268)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 					</g>
 				</g>
 				<g>
 					<g>
 						<g>
 							
-								<rect x="416.28" y="296.883" transform="matrix(0.0067 1 -1 0.0067 720.0547 -120.6637)" fill="none" width="8.976" height="10.499"/>
+								<rect x="415.839" y="295.888" transform="matrix(0.0067 1 -1 0.0067 718.6216 -121.2112)" fill="none" width="8.976" height="10.499"/>
 						</g>
 						
-							<rect x="420.376" y="298.307" transform="matrix(-1 0.007 -0.007 -1 843.879 595.3356)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="419.935" y="297.312" transform="matrix(-1 0.007 -0.007 -1 842.9902 593.3485)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 						
-							<rect x="420.396" y="301.294" transform="matrix(-1 0.0065 -0.0065 -1 843.8007 601.5076)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="419.955" y="300.299" transform="matrix(-1 0.0065 -0.0065 -1 842.9124 599.5203)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 						
-							<rect x="420.416" y="304.273" transform="matrix(-1 0.007 -0.007 -1 844.0002 607.2687)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
+							<rect x="419.975" y="303.278" transform="matrix(-1 0.007 -0.007 -1 843.1115 605.2815)" fill-rule="evenodd" clip-rule="evenodd" width="1.05" height="1.666"/>
 					</g>
 				</g>
 			</g>
 		</g>
 	</g>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="420.737" y1="498.44" x2="421.162" y2="360.472"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="483.208" y1="360.472" x2="420.673" y2="360.472"/>
-	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M420.737,297.645"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="483.208" y1="360.472" x2="420.737" y2="498.44"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="420.296" y1="497.445" x2="420.721" y2="359.477"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="482.767" y1="359.477" x2="420.232" y2="359.477"/>
+	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M420.296,296.649"/>
+	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="482.767" y1="359.477" x2="420.296" y2="497.445"/>
 </g>
 <g id="Layer_13">
 </g>

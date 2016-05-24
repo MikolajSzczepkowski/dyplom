@@ -45,19 +45,19 @@
 </g>
 <g id="Layer_21">
 	<g>
-		<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="450.628,286.293 521.165,356.831 420.946,457.05 
-			320.725,356.831 391.676,286.293 		"/>
-		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="420.946" y1="457.05" x2="420.945" y2="176.665"/>
-		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M420.946,256.255"/>
-		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="386.588" y1="256.611" x2="420.946" y2="457.05"/>
-		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="420.945" y1="176.665" x2="386.588" y2="256.611"/>
-		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="455.301" y1="256.611" x2="420.945" y2="176.665"/>
-		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="420.944" y1="301.844" x2="455.301" y2="256.611"/>
-		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="420.944" y1="301.844" x2="386.588" y2="256.611"/>
-		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="420.944" y1="301.844" x2="450.628" y2="286.293"/>
-		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="391.676" y1="286.293" x2="420.944" y2="301.844"/>
-		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M481.31,316.976"/>
-		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="455.301" y1="256.611" x2="420.946" y2="457.05"/>
+		<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="450.374,327.007 520.91,397.545 420.691,497.764 
+			320.47,397.545 391.421,327.007 		"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="420.691" y1="497.764" x2="420.69" y2="217.378"/>
+		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M420.691,296.968"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="386.333" y1="297.325" x2="420.691" y2="497.764"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="420.69" y1="217.378" x2="386.333" y2="297.325"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="455.046" y1="297.325" x2="420.69" y2="217.378"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="420.689" y1="342.558" x2="455.046" y2="297.325"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="420.689" y1="342.558" x2="386.333" y2="297.325"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="420.689" y1="342.558" x2="450.374" y2="327.007"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="391.421" y1="327.007" x2="420.689" y2="342.558"/>
+		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M481.055,357.689"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="455.046" y1="297.325" x2="420.691" y2="497.764"/>
 	</g>
 </g>
 <g id="Layer_22">

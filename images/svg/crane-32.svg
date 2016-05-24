@@ -66,16 +66,18 @@
 <g id="Layer_32">
 </g>
 <g id="Layer_33">
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="413.832" y1="467.024" x2="413.831" y2="186.64"/>
-	<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M413.832,266.229"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="379.475" y1="266.586" x2="413.832" y2="467.024"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="413.831" y1="186.64" x2="379.475" y2="266.586"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="448.187" y1="266.586" x2="413.831" y2="186.64"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="413.83" y1="311.818" x2="448.187" y2="266.586"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="413.83" y1="311.818" x2="379.475" y2="266.586"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="413.83" y1="311.818" x2="443.515" y2="296.268"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="384.563" y1="296.268" x2="413.83" y2="311.818"/>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="448.187" y1="266.586" x2="413.832" y2="467.024"/>
+	<g>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="419.694" y1="497.764" x2="419.693" y2="217.379"/>
+		<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M419.694,296.969"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="385.337" y1="297.325" x2="419.694" y2="497.764"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="419.693" y1="217.379" x2="385.337" y2="297.325"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="454.049" y1="297.325" x2="419.693" y2="217.379"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="419.692" y1="342.558" x2="454.049" y2="297.325"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="419.692" y1="342.558" x2="385.337" y2="297.325"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="419.692" y1="342.558" x2="449.377" y2="327.007"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="390.425" y1="327.007" x2="419.692" y2="342.558"/>
+		<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="454.049" y1="297.325" x2="419.694" y2="497.764"/>
+	</g>
 </g>
 <g id="Layer_34">
 </g>

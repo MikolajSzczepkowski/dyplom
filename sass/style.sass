@@ -59,6 +59,19 @@ body
   width: 100%
 .spacer
   padding: 50% 0
+  @media screen and (min-height: 640px)
+    padding: 100% 0
+  @include breakpoint(xxs)
+    padding: 100% 0
+    @media (min-width: 640px) and (min-height: 360px)
+      padding: 35% 0
+  @include breakpoint(s)
+    @media screen and (orientation: portrait)
+    padding: 80% 0
+  @include breakpoint(l)
+    padding: 25% 0
+  @include breakpoint(xxl)
+    padding: 35% 0
 .main
   display: block
   margin: 40px 0 0 0
@@ -162,20 +175,28 @@ body
         font-size: 16px
         line-height: 32px
 .main-bottom
-  margin: 20px 0 0 0
-  @include breakpoint(xs)
-    margin: 40px 0 0 0
-  @include breakpoint(l)
-    @media screen and (min-height: 768px)
-      margin: 10% 0 0 0
+  @include breakpoint(m)
+    position: relative
   svg
-    @include center(25%)
-    @include breakpoint(xxs)
-      width: 20%
-    @include breakpoint(xs)
-      width: 15%
+    position: absolute
+    bottom: 2%
+    left: 50%
+    margin-left: -30px
+    width: 60px
+    @media (orientation: landscape)
+      bottom: -50px
+      margin-left: -25px
+      width: 50px
+      @media (min-width: 640px) and (min-height: 360px)
+        bottom: -200px
+      @media (min-width: 768px) and (min-height: 480px)
+        bottom: -50px
     @include breakpoint(m)
-      width: 10%
+      bottom: -250px
+    @include breakpoint(l)
+      bottom: -150px
+    @include breakpoint(xxl)
+      bottom: -300px
 .origami
   a
     position: fixed
@@ -221,7 +242,6 @@ body
     margin: -90px 0 50px 0
     text-align: center
     @include font($font-main, 16px, normal, normal)
-
 aside
   display: none
   position: absolute
