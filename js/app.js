@@ -180,6 +180,9 @@ $(function(){
       },
       { path: "images/svg/crane-41.svg",
         instruction: "Złóż kartkę przed sobą w żurawia."
+      },
+      { path: "images/svg/crane-41.svg",
+        instruction: "Złóż kartkę przed sobą w żurawia."
       }
     ],
     controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 500}});

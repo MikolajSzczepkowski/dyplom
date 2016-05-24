@@ -30,16 +30,16 @@ $color-typography: #2d322c
     @media screen and (min-width: 980px)
       @content
   @else if $point == m
-    @media screen and (min-width: 1024px)
+    @media screen and (min-width: 1024px) and (orientation: landscape)
       @content
   @else if $point == l
-    @media screen and (min-width: 1280px)
+    @media screen and (min-width: 1280px) and (orientation: landscape)
       @content
   @else if $point == xl
-    @media screen and (min-width: 1600px)
+    @media screen and (min-width: 1600px) and (orientation: landscape)
       @content
   @else if $point == xxl
-    @media screen and (min-width: 1920px)
+    @media screen and (min-width: 1920px) and (orientation: landscape)
       @content
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic&subset=latin-ext)
@@ -57,6 +57,8 @@ body
   background-color: $color-backround
 .site-container
   width: 100%
+.spacer
+  padding: 50% 0
 .main
   display: block
   margin: 40px 0 0 0
@@ -65,14 +67,12 @@ body
   @include breakpoint(xs)
     margin: 20px 0 0 0
   @include breakpoint(m)
-    margin: 40px 0 0 0
+    margin: 30px 0 0 0
   @include breakpoint(l)
     width: 60%
     @media screen and (min-height: 768px)
       height: 100%
-      margin: 10% 0 0 0
-  @include breakpoint(xxl)
-    margin: 5% 0 0 0
+      margin: 8% 0 0 0
 .main-top
   @include center(100%)
   @include breakpoint(xxs)
@@ -189,7 +189,7 @@ body
     opacity: 1
   div
     position: fixed
-    bottom: 20px
+    top: 0
     left: 50%
     margin-left: -420px
     @media (min-width: 450px) and (orientation: landscape)
@@ -198,12 +198,25 @@ body
       @include breakpoint(l)
         @media screen and (min-height: 600px)
           left: auto
+    @media (min-width: 640px) and (min-height: 360px)
+      top: auto
+      bottom: 0
+    @media (min-width: 768px) and (min-height: 480px)
+      top: 0
+      bottom: auto
+      left: 50%
+      margin-left: -420px
+    @include breakpoint(m)
+      left: 0
+      margin-left: 0
+    @include breakpoint(l)
+      width: 60%
   img
     @include center(auto)
     max-height: 100%
     @media (min-width: 450px) and (orientation: landscape)
       @include center(100%)
-      max-height: auto
+      max-height: none
   p
     margin: -90px 0 50px 0
     text-align: center
