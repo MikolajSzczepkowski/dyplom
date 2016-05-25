@@ -2,7 +2,7 @@ $font-main: "Open Sans", sans-serif
 $font-serif: "Noto Serif", serif
 $color-backround: #e6d6bf
 $color-typography: #2d322c
-
+$color-number: #b64f48
 @mixin center($width)
   display: block
   width: $width
@@ -12,7 +12,11 @@ $color-typography: #2d322c
   font-size: $font-size
   font-weight: $font-weight
   font-style: $font-style
-
+@mixin hover()
+  transition: opacity 0.2s ease-in-out
+  &:hover
+    opacity: 0.7
+    transition: opacity 0.2s ease-in-out
 @mixin breakpoint($point)
   @if $point == xxxs
     @media screen and (min-width: 300px)
@@ -48,7 +52,14 @@ $color-typography: #2d322c
 
 .center
   @include center(85%)
-
+.hide
+  display: none
+  transition: display 0.2s ease-in-out
+.number
+  color: $color-number
+*:focus, *:active, button, a, *::-moz-focus-inner
+  outline: 0
+  border: 0
 html, body, .site-container
   height: 100%
 body
@@ -109,13 +120,27 @@ body
       z-index: 100
       top: -25px
       left: 0
+      width: 30px
+      padding: 0
       background: none
-      border: none
+      cursor: pointer
       @include breakpoint(xxxs)
         top: 0
+      @include breakpoint(xxs)
+        top: 10px
+        left: 10px
+        width: 40px
+      @include breakpoint(s)
+        top: 15px
+        left: 15px
+        width: 50px
       @include breakpoint(l)
         @media screen and (min-height: 600px)
           display: none
+      svg
+        width: 100%
+        height: auto
+      @include hover()
     svg
       display: none
       margin: 0 0 40px 0
@@ -202,6 +227,15 @@ body
     position: fixed
     bottom: 25px
     left: 25px
+    width: 30px
+    height: 50px
+    svg
+      width: 100%
+      height: auto
+    @include hover()
+    @include breakpoint(l)
+      width: 40px
+      height: 70px
   li
     height: 500px
     opacity: 0
@@ -313,9 +347,7 @@ aside
     background: none
     border: none
     cursor: pointer
-    &:hover
-      opacity: 0.7
-      transition: opacity 0.2s ease-in-out
+    @include hover()
     svg
       position: absolute
       top: 4px

@@ -185,8 +185,17 @@ $(function(){
       instruction: "Fantastycznie! Udało ci się złożyć żurawia."
     }
   ],
-  controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 500}});
+  controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 500}}),
+  currentNumber = 0;
 
+  $(document).scroll(function(){
+    if ($("#origami li").hasClass("active")) {
+      $("#openAside").addClass("hide");
+    }
+    else {
+      $("#openAside").removeClass("hide");
+    }
+  });
   $("#openAside").on("click", function(){
     if ($("#aside").hasClass("active")) {
       $("#aside").removeClass("active");
@@ -242,12 +251,13 @@ $(function(){
     $( "#modal" ).dialog( "open" );
   });
 
-  $.each( svg, function(){
+  $.each( svg, function(index, value){
     var path = this.path,
+      displayNumber = "<span class='number'>" + (index + 1) + ". " + "</span>",
       craneName = path.slice(11, path.length - 4),
       liId = "#" + craneName,
       image = "<img src=" + path + " alt=" + craneName + " />",
-      instruction = "<p>" + this.instruction + "</p>";
+      instruction = "<p>" + displayNumber + this.instruction + "</p>";
 
     $("#origami ul").append("<li id=" + craneName + "><div>" + image + instruction + "</div></li>");
 
