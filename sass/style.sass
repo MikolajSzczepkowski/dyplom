@@ -109,7 +109,7 @@ body
     width: 45%
     margin: 0 3% 0 0
     @include breakpoint(xxxs)
-      position: initial
+      position: relative
     @include breakpoint(xs)
       margin: 0 8% 0 0
     @include breakpoint(sm)
@@ -340,6 +340,7 @@ aside
   @include breakpoint(l)
     position: fixed
   div
+    position: relative
     display: inline-block
   #modal
     overflow: visible
@@ -374,6 +375,7 @@ aside
     @include breakpoint(l)
       width: 69%
     img
+      position: relative
       @include center(auto)
       max-width: 100%
       @include breakpoint(l)
