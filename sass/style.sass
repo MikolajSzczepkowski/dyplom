@@ -122,8 +122,17 @@ body
       left: 0
       width: 30px
       padding: 0
+      outline: 0
+      border: 0
       background: none
       cursor: pointer
+      @include hover()
+      &:focus
+        outline: 0
+        border: 0
+      &:active
+        outline: 0
+        border: 0
       @include breakpoint(xxxs)
         top: 0
       @include breakpoint(xxs)
@@ -140,7 +149,6 @@ body
       svg
         width: 100%
         height: auto
-      @include hover()
     svg
       display: none
       margin: 0 0 40px 0
@@ -203,36 +211,31 @@ body
   @include breakpoint(m)
     position: relative
   svg
-    position: absolute
-    bottom: 2%
-    left: 50%
-    margin-left: -30px
-    width: 60px
-    @media (orientation: landscape)
-      bottom: -50px
-      margin-left: -25px
-      width: 50px
-      @media (min-width: 640px) and (min-height: 360px)
-        bottom: -200px
-      @media (min-width: 768px) and (min-height: 480px)
-        bottom: -50px
-    @include breakpoint(m)
-      bottom: -250px
+    @include center(20%)
     @include breakpoint(l)
+      position: absolute
       bottom: -150px
+      left: 50%
+      width: 50px
+      margin-left: -25px
     @include breakpoint(xl)
       bottom: -300px
 .origami
   a
     position: fixed
-    bottom: 25px
-    left: 25px
-    width: 30px
-    height: 50px
+    bottom: 10px
+    left: 10px
+    width: 15px
+    height: 40px
     svg
       width: 100%
       height: auto
     @include hover()
+    @include breakpoint(xxs)
+      bottom: 25px
+      left: 25px
+      width: 30px
+      height: 50px
     @include breakpoint(l)
       width: 40px
       height: 70px
@@ -244,7 +247,7 @@ body
     opacity: 1
   div
     position: fixed
-    top: 0
+    bottom: 0
     left: 50%
     margin-left: -420px
     @media (min-width: 450px) and (orientation: landscape)
@@ -273,9 +276,12 @@ body
       @include center(100%)
       max-height: none
   p
-    margin: -90px 0 50px 0
+    width: 200px
+    margin: -90px auto 50px auto
     text-align: center
     @include font($font-main, 16px, normal, normal)
+    @media (orientation: landscape)
+      margin: -70px auto 50px auto
 aside
   display: none
   position: absolute
@@ -347,6 +353,14 @@ aside
     background: none
     border: none
     cursor: pointer
+    outline: 0
+    border: 0
+    &:focus
+      outline: 0
+      border: 0
+    &:active
+      outline: 0
+      border: 0
     @include hover()
     svg
       position: absolute

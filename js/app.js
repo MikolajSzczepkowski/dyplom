@@ -191,9 +191,11 @@ $(function(){
   $(document).scroll(function(){
     if ($("#origami li").hasClass("active")) {
       $("#openAside").addClass("hide");
+      $("#goTopButton").removeClass("hide");
     }
     else {
       $("#openAside").removeClass("hide");
+      $("#goTopButton").addClass("hide");
     }
   });
   $("#openAside").on("click", function(){
