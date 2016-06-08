@@ -5,56 +5,56 @@ $(function(){
       color: "#e3d4bd",
       darkerColor: "#AB8E6C",
       typoColor: "#2d322c",
-      text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
+      text: "Hiroshige wykonywał większość swoich prac w technice drzeworytu. Początkowo tworzył portrety, przedstawiające głównie aktorów i kobiety, ale w późniejszych latach stał się sławny dzięki pejzażom i obrazom natury. Wykonał tysiące kompozycji przedstawiających kwiaty i ptaki, ale także Edo, miasta i drogi. Jego twórczość stała się inspiracją dla europejskich malarzy impresjonistycznych."
     },
     { title: "Evening view of a temple in the hills",
       src: "images/hiroshige/Hiroshige_Evening_view_of_a_temple_in_the_hills.jpg",
       color: "#839987",
       darkerColor: "#516655",
       typoColor: "#DBE5DD",
-      text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
+      text: "Origami to sztuka składania papieru, pochodząca z Chin, rozwinięta w Japonii i dlatego uważa się ją za tradycyjną sztukę japońską. W XX w. ostatecznie ustalono reguły origami: punktem wyjścia ma być kwadratowa kartka papieru, której nie wolno ciąć, kleić i dodatkowo ozdabiać i z której poprzez zginanie tworzone są przestrzenne figury."
     },
     { title: "Full moon over a mountain landscape",
       src: "images/hiroshige/Hiroshige_Full_moon_over_a_mountain_landscape.jpg",
       color: "#c5b9a3",
       darkerColor: "#918878",
       typoColor: "#2d322c",
-      text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
+      text: "Ukiyo-e 'obrazy przepływającego świata' – rodzaj malarstwa i drzeworytu japońskiego.  Ukiyo-e były plastycznym środkiem wyrazu powstającym w obrębie dzielnic rozrywki największych miast japońskich okresu Edo. Technika wykonywania drzeworytu monochromatycznego pojawiła się w Japonii przypuszczalnie w VIII wieku za pośrednictwem warsztatów koreańskich i stosowana była przede wszystkim do druku tekstów i wizerunków buddyjskich. Z czasem zaczęto ją stosować także do druku literatury edukacyjnej, popularnej i pornograficznej."
     },
     { title: "Man on horseback crossing a bridge",
       src: "images/hiroshige/Hiroshige_Man_on_horseback_crossing_a_bridge.jpg",
       color: "#af9e72",
       darkerColor: "#7d7151",
       typoColor: "#FBEABD",
-      text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
+      text: "Kaligrafia (jap. Shodō- 'droga pisma') obejmuje kilka stylów pisma w języku japońskim, wywodzi się z kaligrafii chińskiej. Od kaligrafii pisanej w jakimkolwiek kraju europejskim różni się podejściem do samej czynności oraz efektu końcowego. Nie jest wcale najważniejszą informacja, którą niesie dany znak, tylko jego perfekcyjnego wykonanie, do którego należy dążyć konsekwentnie, w pełnym skupieniu."
     },
     { title: "People under maple trees by a stream",
       src: "images/hiroshige/Hiroshige_People_under_maple_trees_by_a_stream.jpg",
       color: "#b64f48",
       darkerColor: "#a03c37",
       typoColor: "#e6d6bf",
-      text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
+      text: "Japońska ceramika pamięta czasy neolitu. Od VI wieku wykonywano ją według metod chińskich i koreańskich. Niemniej jednak swą uznaną dziś wysoką jakość osiągnęła w XIV wieku, kiedy po okresie izolacji Japonia odnowiła kontakty z Chinami, a ośrodkiem jej produkcji stało się miasto Seto, położone nieopodal Nagoi. Natomiast wyroby z takich miejsc, jak: Karatsu czy Hagi, a także ceramika raku rozwinęły się pod wpływem ceremonii parzenia herbaty. Początki stosowania kintsukuroi, techniki naprawy potłuczonej ceramiki za pomocą żywicy przypominającej złoto lub srebro, sięgają XVI wieku."
     },
     { title: "Shrines in snowy mountains",
       src: "images/hiroshige/Hiroshige_Shrines_in_snowy_mountains.jpg",
       color: "#436fac",
       darkerColor: "#004078",
       typoColor: "#d8d8d8",
-      text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
+      text: "Powstałe w VII wieku malowidła naścienne głównego pawilonu świątyni Hōryū-ji nieopodal Nary, reprezentujące chiński styl i buddyjską tematykę, należą do najstarszych w Japonii. Później w okresie Heian rozpowszechniło się malarstwo krajobrazowe, portretowe oraz przedstawiające życie dworskie. Ozdabiały one parawany, przesuwne drzwi jak również zwoje kakemono."
     },
     { title: "Travellers surprised by sudden rain",
       src: "images/hiroshige/Hiroshige_Travellers_surprised_by_sudden_rain.jpg",
       color: "#e7bc54",
       darkerColor: "#ae881e",
       typoColor: "#2d322c",
-      text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
+      text: "Już od tysiąca lat uroczystościom cesarskim, shintō i buddyjskim towarzyszy wielka orkiestra gagaku, wykorzystująca instrumenty takie jak: biwa (rodzaj dużej lutni), koto (13-strunowa cytra), flety poprzeczne i perkusja, w skład której wchodzą bębny tsuzumi oraz wielki taiko. Stworzone przez buddyjskich mnichów, stylizowane i zawodzące shōmyō stało się najpopularniejszym stylem śpiewu w dawnej Japonii, mającym wpływ m.in. na teatr nō i kabuki."
     },
     { title: "Evening snow at Kanbara",
       src: "images/hiroshige/Hiroshige_Evening_snow_at_Kanbara.jpg",
       color: "#BEBEBE",
       darkerColor: "#898989",
       typoColor: "#2d322c",
-      text: " It is Hokusai's most famous work, and one of the best recognized works of Japanese art in the world. It depicts an enormous wave threatening boats off the coast of the prefecture of Kanagawa. While sometimes assumed to be a tsunami, the wave is, as the picture's title suggests, more likely to be a large rogue wave.[2] As in all the prints in the series, it depicts the area around Mount Fuji under particular conditions, and the mountain itself appears in the background."
+      text: "Kabuki to jeden z rodzajów tradycyjnego teatru japońskiego, wywodzący się z XVII wieku. Teatr kabuki jest znany z bogatej oprawy przedstawień, silnej ekspresji i wyszukanej charakteryzacji aktorów. Wśród ważnych elementów teatru kabuki znajduje się mie– aktor utrzymuje wystylizowaną pozę, aby mocno określić charakter lub emocje swojego bohatera. Keshō, lub charakteryzacja, jest cechą stylu łatwo rozpoznawalną nawet przez osoby niezorientowane w tej formie sztuki."
     }
   ],
   svg = [
