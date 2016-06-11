@@ -258,7 +258,7 @@ $(function(){
       displayNumber = "<span class='number'>" + (index + 1) + ". " + "</span>",
       craneName = path.slice(11, path.length - 4),
       liId = "#" + craneName,
-      image = "<img src=" + path + " alt=" + craneName + " />",
+      image = "<img class='lazy' data-original=" + path + " alt=" + craneName + " />",
       instruction = "<p>" + displayNumber + this.instruction + "</p>";
 
     $("#origami ul").append("<li id=" + craneName + "><div>" + image + instruction + "</div></li>");
@@ -268,6 +268,8 @@ $(function(){
               .addTo(controller);
   });
 
+  $("img.lazy").lazyload();
+  
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
