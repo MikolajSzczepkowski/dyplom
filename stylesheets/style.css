@@ -290,25 +290,25 @@ body {
   height: auto;
 }
 /* line 150, ../sass/style.sass */
-.main-top div svg {
+.main-top div #crane {
   display: none;
   margin: 0 0 40px 0;
 }
 @media screen and (min-width: 300px) {
   /* line 150, ../sass/style.sass */
-  .main-top div svg {
+  .main-top div #crane {
     display: block;
   }
 }
 @media screen and (min-width: 480px) {
   /* line 150, ../sass/style.sass */
-  .main-top div svg {
+  .main-top div #crane {
     margin: 0 0 20px 0;
   }
 }
 @media screen and (min-width: 768px) {
   /* line 150, ../sass/style.sass */
-  .main-top div svg {
+  .main-top div #crane {
     margin: 0 0 65px 0;
   }
 }

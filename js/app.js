@@ -197,7 +197,32 @@ $(function(){
       $("#openAside").removeClass("hide");
       $("#goTopButton").addClass("hide");
     }
+    if ($("#crane-01").hasClass("active") && $("#origami li").length <= 5) {
+      loadSvg(5, 10);
+    }
+    if ($("#crane-05").hasClass("active") && $("#origami li").length <= 10) {
+      loadSvg(10, 15);
+    }
+    if ($("#crane-10").hasClass("active") && $("#origami li").length <= 15) {
+      loadSvg(15, 20);
+    }
+    if ($("#crane-15").hasClass("active") && $("#origami li").length <= 20) {
+      loadSvg(20, 25);
+    }
+    if ($("#crane-20").hasClass("active") && $("#origami li").length <= 25) {
+      loadSvg(25, 30);
+    }
+    if ($("#crane-25").hasClass("active") && $("#origami li").length <= 30) {
+      loadSvg(30, 35);
+    }
+    if ($("#crane-30").hasClass("active") && $("#origami li").length <= 35) {
+      loadSvg(35, 40);
+    }
+    if ($("#crane-35").hasClass("active") && $("#origami li").length <= 40) {
+      loadSvg(40, svg.length);
+    }
   });
+
   $("#openAside").on("click", function(){
     if ($("#aside").hasClass("active")) {
       $("#aside").removeClass("active");
@@ -252,22 +277,23 @@ $(function(){
     }
     $( "#modal" ).dialog( "open" );
   });
-
-  $.each( svg, function(index, value){
-    var path = this.path,
-      displayNumber = "<span class='number'>" + (index + 1) + ". " + "</span>",
+  function loadSvg(startPoint, breakPoint) {
+    for (var i = startPoint; i < breakPoint; i++) {
+      var path = svg[i].path,
+      displayNumber = "<span class='number'>" + (i + 1) + ". " + "</span>",
       craneName = path.slice(11, path.length - 4),
       liId = "#" + craneName,
       image = "<img src=" + path + " alt=" + craneName + " />",
-      instruction = "<p>" + displayNumber + this.instruction + "</p>";
+      instruction = "<p>" + displayNumber + svg[i].instruction + "</p>";
 
-    $("#origami ul").append("<li id=" + craneName + "><div>" + image + instruction + "</div></li>");
+      $("#origami ul").append("<li id=" + craneName + "><div>" + image + instruction + "</div></li>");
 
-    new ScrollMagic.Scene({triggerElement: liId})
-              .setClassToggle( liId , "active")
-              .addTo(controller);
-  });
-
+      new ScrollMagic.Scene({triggerElement: liId})
+      .setClassToggle( liId , "active")
+      .addTo(controller);
+    }
+  }
+  loadSvg(0, 5);
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
