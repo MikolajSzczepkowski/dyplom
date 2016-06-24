@@ -287,7 +287,7 @@ body {
 /* line 147, ../sass/style.sass */
 .main-top div button svg {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 /* line 150, ../sass/style.sass */
 .main-top div #crane {
@@ -471,7 +471,7 @@ body {
 /* line 228, ../sass/style.sass */
 .origami a svg {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 /* line 17, ../sass/style.sass */
 .origami a:hover {
